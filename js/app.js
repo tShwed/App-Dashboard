@@ -53,7 +53,7 @@ $send.click(function () {
         $(".warning-message").text("Your message sent successfully").css('background-color', '#6060CD').css('border-radius', '3%', 'padding', '10px').css('color', 'white').width(260);
     }
     if (document.getElementById("contact_name").value === "") {
-        $(".warning-message").text("Which member are you trying to contact?").css('background-color', 'transparent').css('color', '#6060CD');;
+        $(".warning-message").text("Which member are you trying to contact?").css('background-color', 'transparent').css('color', '#6060CD');
     }
 });
 
