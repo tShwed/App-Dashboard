@@ -45,7 +45,6 @@ $offBtn3.click("on" ,function(){
 });
 
 
-
 $send.click(function () {
     if (document.getElementById("contact_message").value === "") {
         $(".warning-message").text("Please enter message").css('background-color', 'transparent').css('color', '#6060CD');
