@@ -681,7 +681,7 @@ textarea:focus {
 
 	.social-box {
 		width: 95%;
-		flex-flow: wrap;
+		flex-flow: inherit;
 		align-items: center;
 		justify-content: space-between;
 		margin-left: 10px;
@@ -950,7 +950,7 @@ textarea:focus {
 	.settings-title,
 	.ui-widget-content,
 	.error {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
 
@@ -960,7 +960,7 @@ textarea:focus {
 
 	.avatar-box {
 		font-size: 0.9em;
-		padding-bottom: 19.5px;
+		margin-bottom: 3%;
 	}
 
 	.activity-icon {
