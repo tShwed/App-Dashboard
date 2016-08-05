@@ -925,6 +925,7 @@ textarea:focus {
 	.social-box {
 		width: 85%;
 		justify-content: space-between;
+		margin-left: 7%; 
 	}
 
 	.social-stats {
